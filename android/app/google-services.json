@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "1086182683711",
+    "project_id": "sonorous-saga-449814-u7",
+    "storage_bucket": "sonorous-saga-449814-u7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086182683711:android:ff48fc51c9f66d5000b48a",
+        "android_client_info": {
+          "package_name": "com.example.learn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086182683711-h1avjm0k8oj94638h1bck1q3mju1k0ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD62jhCXD4MvIOEZQDTI5Fkso-QuErbiu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086182683711-h1avjm0k8oj94638h1bck1q3mju1k0ju.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1086182683711-flusll8l65rk9ce4tnp4418sa7q1eprr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.learn"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086182683711:android:1b5d05126acc134500b48a",
+        "android_client_info": {
+          "package_name": "com.example.riverpodtutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086182683711-h1avjm0k8oj94638h1bck1q3mju1k0ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD62jhCXD4MvIOEZQDTI5Fkso-QuErbiu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086182683711-h1avjm0k8oj94638h1bck1q3mju1k0ju.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1086182683711-flusll8l65rk9ce4tnp4418sa7q1eprr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.learn"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086182683711:android:af7a8013e3da9c1c00b48a",
+        "android_client_info": {
+          "package_name": "com.example.wonderwedding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086182683711-h1avjm0k8oj94638h1bck1q3mju1k0ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD62jhCXD4MvIOEZQDTI5Fkso-QuErbiu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086182683711-h1avjm0k8oj94638h1bck1q3mju1k0ju.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1086182683711-flusll8l65rk9ce4tnp4418sa7q1eprr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.learn"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
