@@ -1,1 +1,41 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"sonorous-saga-449814-u7","appId":"1:1086182683711:android:1b5d05126acc134500b48a","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"sonorous-saga-449814-u7","configurations":{"android":"1:1086182683711:android:1b5d05126acc134500b48a","ios":"1:1086182683711:ios:21541972e3cb8ab900b48a","macos":"1:1086182683711:ios:21541972e3cb8ab900b48a","web":"1:1086182683711:web:4481780fe6766c7500b48a","windows":"1:1086182683711:web:bb66b557423e96d100b48a"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "sonorous-saga-449814-u7",
+          "appId": "1:1086182683711:android:1b5d05126acc134500b48a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "web": {
+        "default": {
+          "projectId": "sonorous-saga-449814-u7",
+          "appId": "1:1086182683711:web:4481780fe6766c7500b48a",
+          "fileOutput": "web/firebase-config.js"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "sonorous-saga-449814-u7",
+          "configurations": {
+            "android": "1:1086182683711:android:1b5d05126acc134500b48a",
+            "ios": "1:1086182683711:ios:21541972e3cb8ab900b48a",
+            "macos": "1:1086182683711:ios:21541972e3cb8ab900b48a",
+            "web": "1:1086182683711:web:4481780fe6766c7500b48a",
+            "windows": "1:1086182683711:web:bb66b557423e96d100b48a"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  }
+}
