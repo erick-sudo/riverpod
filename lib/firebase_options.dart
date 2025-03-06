@@ -87,4 +87,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'sonorous-saga-449814-u7.firebasestorage.app',
     measurementId: 'G-YXDK3PG176',
   );
+
 }
