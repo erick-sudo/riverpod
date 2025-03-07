@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:riverpodtutorial/controllers/auth_controller.dart';
+import 'package:riverpodtutorial/screens/image_picker_demo_screen.dart';
+import 'package:riverpodtutorial/screens/profile_screen.dart';
 
 class HomeScreen extends ConsumerWidget {
   static String name = 'Home';
@@ -28,6 +31,24 @@ class HomeScreen extends ConsumerWidget {
                       await ref.read(authControllerProvider.notifier).signOut();
                     },
                     child: const Text("Sign Out"),
+                  ),
+                  SizedBox(
+                    height: 24,
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      context.go(ProfileScreen.path);
+                    },
+                    child: const Text("Go to Profile"),
+                  ),
+                  SizedBox(
+                    height: 24,
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      context.go(ImagePickerDemoScreen.path);
+                    },
+                    child: const Text("Image Picker Lab"),
                   )
                 ],
               ),

@@ -4,6 +4,8 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:riverpodtutorial/refresh_listenable.dart';
 import 'package:riverpodtutorial/repositories/firebase_auth_repository.dart';
 import 'package:riverpodtutorial/screens/home_screen.dart';
+import 'package:riverpodtutorial/screens/image_picker_demo_screen.dart';
+import 'package:riverpodtutorial/screens/profile_screen.dart';
 import 'package:riverpodtutorial/screens/signin_screen.dart';
 import 'package:riverpodtutorial/screens/signup_screen.dart';
 
@@ -39,6 +41,29 @@ GoRouter router(RouterRef ref) {
           child: SignUpScreen(),
         ),
       ),
+      GoRoute(
+        path: ProfileScreen.path,
+        name: ProfileScreen.name,
+        pageBuilder: (context, state) => const MaterialPage(
+          child: ProfileScreen(),
+        ),
+      ),
+      GoRoute(
+        path: ImagePickerDemoScreen.path,
+        name: ImagePickerDemoScreen.name,
+        pageBuilder: (context, state) => const MaterialPage(
+          child: ImagePickerDemoScreen(),
+        ),
+      ),
+      GoRoute(
+        path: '*',
+        name: 'PageNotFound',
+        pageBuilder: (context, state) => const MaterialPage(
+          child: Center(
+            child: Text('Page not found'),
+          ),
+        ),
+      )
     ],
     refreshListenable: GoRouterRefreshStream(auth.authStateChanges()),
     redirect: (context, state) async {
